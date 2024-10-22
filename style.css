@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Outfit;
+}
+
+.screen {
+    width: 1440px;
+    height: 800px;
+    
+    background-color: #D5E1EF;
+
+    padding: 152px 0px 151px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 320px;
+    height: 497px;
+
+    background-color: #FFF;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-top: 16px;
+}
+
+.blueScreen {
+    width: 288px;
+    height: 288px;
+
+    background-color: #2C7DFA;
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#qr-code {
+    width: 160px;
+    height: 160px;
+}
+
+
+.content {
+    width: 288px;
+    height: 129px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    padding-top: 24px;
+
+}
+
+#p1 {
+    width: 288px;
+
+    color: #1F314F;
+    
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+#p2 {
+    width: 256px;
+
+    color: #7D889E;
+
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.188px;
+
+}
